@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru" class="">
+<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+	<meta name="HandheldFriendly" content="true" >
+	<meta name="MobileOptimized" content="width">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Пустой шаблон</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+							:root {
+								--theme-color-b24button: var(--primary);
+							}
+						</style>
+<style type="text/css">
+				:root {
+					--primary: #34bcf2 !important;
+					--primary-darken-1: hsl(197.05, 88%, 56%);
+					--primary-darken-2: hsl(197.05, 88%, 53%);
+					--primary-darken-3: hsl(197.05, 88%, 48%);
+					--primary-lighten-1: hsl(197.05, 88%, 68%);
+					--primary-opacity-0: rgba(52, 188, 242, 0);
+					--primary-opacity-0_05: rgba(52, 188, 242, 0.05);
+					--primary-opacity-0_1: rgba(52, 188, 242, 0.1);
+					--primary-opacity-0_15: rgba(52, 188, 242, 0.15);
+					--primary-opacity-0_2: rgba(52, 188, 242, 0.2);
+					--primary-opacity-0_25: rgba(52, 188, 242, 0.25);
+					--primary-opacity-0_3: rgba(52, 188, 242, 0.3);
+					--primary-opacity-0_35: rgba(52, 188, 242, 0.35);
+					--primary-opacity-0_4: rgba(52, 188, 242, 0.4);
+					--primary-opacity-0_45: rgba(52, 188, 242, 0.45);
+					--primary-opacity-0_5: rgba(52, 188, 242, 0.5);
+					--primary-opacity-0_55: rgba(52, 188, 242, 0.55);
+					--primary-opacity-0_6: rgba(52, 188, 242, 0.6);
+					--primary-opacity-0_65: rgba(52, 188, 242, 0.65);
+					--primary-opacity-0_7: rgba(52, 188, 242, 0.7);
+					--primary-opacity-0_75: rgba(52, 188, 242, 0.75);
+					--primary-opacity-0_8: rgba(52, 188, 242, 0.8);
+					--primary-opacity-0_85: rgba(52, 188, 242, 0.85);
+					--primary-opacity-0_9: rgba(52, 188, 242, 0.9);
+					--primary-opacity-0_95: rgba(52, 188, 242, 0.95);
+					--theme-color-main: hsl(197.05, 20%, 20%);
+					--theme-color-secondary: hsl(197.05, 20%, 80%);
+					--theme-color-title: hsl(197.05, 20%, 20%);
+					--theme-color-strict-inverse: #ffffff;
+				}
+			</style>
+<style>:root {--theme-color-main: #999999 !important;--theme-color-title: #111111 !important;}</style>
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/js/intranet/intranet-common.min.css?166151605361199" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?166921294222029" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/intranet/design-tokens/bitrix24/bitrix24-design-tokens.min.css?16854388541467" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16620208132320" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.min.css?168130229626598" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/sidepanel/css/sidepanel.min.css?16655607828173" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/hint/ui.hint.min.css?16512448992055" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/core/css/core_date.min.css?16607515339928" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/landing/css/landing_public.min.css?1567508327250" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/components/bitrix/landing.pub/templates/.default/style.min.css?168430445743765" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/panel/main/popup.min.css?167109653420774" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/panel/catalog/catalog_cond.min.css?15549945847248" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css?1677000639160496" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/landing24/theme.min.css?1688548027583944" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/landing24/assets/css/custom-grid.min.css?156933840138" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="/bitrix/templates/landing24/template_styles.min.css?16843044572401" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+
+
+
+<script type="extension/settings" data-extension="main.date">{"formats":{"FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","SHORT_DATE_FORMAT":"d.m.Y","MEDIUM_DATE_FORMAT":"j M Y","LONG_DATE_FORMAT":"j F Y","DAY_MONTH_FORMAT":"j F","DAY_SHORT_MONTH_FORMAT":"j M","SHORT_DAY_OF_WEEK_MONTH_FORMAT":"D, j F","SHORT_DAY_OF_WEEK_SHORT_MONTH_FORMAT":"D, j M","DAY_OF_WEEK_MONTH_FORMAT":"l, j F","FULL_DATE_FORMAT":"l, j F Y","SHORT_TIME_FORMAT":"H:i","LONG_TIME_FORMAT":"H:i:s"}}</script>
+
+
+
+<style>
+					body.landing-page-transition::after {
+						background: #fff;
+					}
+				</style>
+<meta name="robots" content="noindex" />
+<style>
+					body {
+						--landing-font-family: Open Sans
+					}
+				</style>
+<link rel="stylesheet" href="https://fonts.bitrix24.ru/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900">
+<style>
+				body {
+					font-weight: 400;
+					font-family: Open Sans;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+					-moz-font-feature-settings: "liga", "kern";
+					text-rendering: optimizelegibility;
+				}
+			</style>
+<style>
+				h1, h2, h3, h4, h5, h6 {
+					font-family: Open Sans;
+				}
+			</style>
+<style>
+			html {font-size: 14px;}
+			body {font-size: 1rem;}
+			.g-font-size-default {font-size: 1rem;}
+		</style>
+<style>
+				main.landing-public-mode {
+					line-height: 1.6;
+					font-weight: 400;
+				}
+				
+				.landing-public-mode .h1, .landing-public-mode .h2, .landing-public-mode .h3, .landing-public-mode .h4, 
+				.landing-public-mode .h5, .landing-public-mode .h6, .landing-public-mode .h7,
+				.landing-public-mode h1, .landing-public-mode h2, .landing-public-mode h3, .landing-public-mode h4, 
+				.landing-public-mode h5, .landing-public-mode h6 {
+					font-weight: 400;
+				}
+			</style>
+<meta property="og:title" content="Пустой шаблон" /><meta property="og:description" content="Создайте собственный сайт с чистого листа и привлекайте клиентов!" /><meta property="og:type" content="website" /><meta property="twitter:title" content="Пустой шаблон" /><meta property="twitter:description" content="Создайте собственный сайт с чистого листа и привлекайте клиентов!" /><meta property="twitter:type" content="website" /> <meta property="og:image" content="https://b24-7q2qt2.bitrix24site.ru/preview/fe7e95d9a5eabeb33f217cd54341cbfa/preview.jpg" /><meta property="twitter:image" content="https://b24-7q2qt2.bitrix24site.ru/preview/fe7e95d9a5eabeb33f217cd54341cbfa/preview.jpg" /> <meta property="Bitrix24SiteType" content="page" /> <meta property="og:url" content="https://b24-7q2qt2.bitrix24site.ru/pub/site/5/" />
+<link rel="canonical" href="https://b24-7q2qt2.bitrix24site.ru/pub/site/5/"/><link rel="icon" type="image/x-icon" href="/favicon.ico"></head>
+<body class="landing-mode-preview landing-b24button-use-style landing-page-transition" >
+<main class="w-100 landing-public-mode" >
+<a id="editor11"></a><div id="b11" class="block-wrapper block-02-three-cols-big-2"><section class="container-fluid px-0 landing-block l-d-lg-none l-d-md-none" style="">
+        <div class="row no-gutters">
+
+            <div class="landing-block-node-left landing-semantic-background-color order-2 order-lg-1 col-md-6 col-lg-4 g-bg opacity-1" data-slider-autoplay="1" data-slider-animation="1" style="--bg: hsla(18, 100%, 0%, 1);">
+                <div class="js-carousel carouselLeft g-pb-90" data-infinite="true" data-autoplay="true" data-slides-show="1" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="js-slide landing-block-card-left">
+                        <img class="landing-block-node-img-left img-fluid w-100" src="https://cdn-ru.bitrix24.ru/b26287048/landing/945/9459aeb60b5e4170895d6cde6297f2a8/IMG_8851_1x.jpg" alt="" srcset="https://cdn-ru.bitrix24.ru/b26287048/landing/bb1/bb18d5a24656eb72f529c2ad08468164/IMG_8851_2x.jpg 2x" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}" data-fileid="159" data-fileid2x="161" />
+
+                        <div class="g-pa-30">
+                            <h3 class="landing-block-node-carousel-element-title landing-semantic-title-small js-animation fadeIn text-uppercase g-font-weight-700 g-color-white g-mb-20" style=""> </h3>
+							<div class="landing-block-node-carousel-element-text js-animation fadeIn g-color-gray-light-v2 animated" style=""><p class="landing-semantic-text-medium">Хочешь увидеть любую девушку голой? 😍 😍<br />знакомую маму одноклассницу или даже блогершу и знаменитость <br /><br /><br />Популярный телеграм бот поможет раздеть любую девушку по фотографии и увидеть все её прелести👇👇👇 <br />https://t.me/deepnubot<br /></p></div>
+                        </div>
+                    </div></div>
+            </div>
+
+            <div class="landing-block-node-center landing-semantic-background-color order-1 order-lg-2 col-12 col-lg-4 d-flex justify-content-center flex-column g-pa-30 g-bg" style="--bg: hsla(337, 88%, 58%, 1);">
+                    <div class="landing-block-node-header text-center text-uppercase g-brd-primary g-mb-auto u-heading-v2-0" style="--border-color: ;--border-color--hover: ;">
+                        <h6 class="landing-block-node-center-subtitle landing-semantic-subtitle-small-primary js-animation fadeIn g-font-weight-700 g-letter-spacing-1 g-color-primary g-mb-20" style=""> </h6>
+                        <h2 class="landing-block-node-center-title landing-semantic-title-medium js-animation fadeIn h1 u-heading-v2__title g-line-height-1_3 g-font-weight-700 g-color-white g-mb-minus-10" style="">👉СБОРНИК 18+</h2>
+                    </div>
+
+                    <div class="landing-block-node-center-text landing-semantic-text-medium js-animation fadeIn g-color-gray-light-v2" style=""><p><br /></p></div>
+            </div>
+
+            <div class="landing-block-node-right landing-semantic-background-color order-3 col-md-6 col-lg-4 g-bg" data-slider-autoplay="1" data-slider-animation="1" style="--bg: hsla(0, 0%, 0%, 1);">
+                <div class="js-carousel carouselRight g-pb-90" data-infinite="true" data-slides-show="1" data-autoplay="true" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="js-slide landing-block-card-right">
+                        <img class="landing-block-node-img-right img-fluid w-100" src="https://cdn-ru.bitrix24.ru/b26287048/landing/f0e/f0e289d5e20213ce6fb56f9573d448b2/IMG_8855_1x.jpg" alt="" srcset="https://cdn-ru.bitrix24.ru/b26287048/landing/9a8/9a8f08707ab86ecbe726e1a8450cc634/IMG_8855_2x.jpg 2x" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}" data-fileid="165" data-fileid2x="167" />
+
+                        <div class="g-pa-30">
+                            <h3 class="landing-block-node-carousel-element-title landing-semantic-title-small js-animation fadeIn text-uppercase g-font-weight-700 g-mb-20 g-color" style="--color: hsla(197, 62%, 69%, 1);--border-color: ;--border-color--hover: ;"> </h3>
+							<div class="landing-block-node-carousel-element-text js-animation fadeIn g-color-gray-light-v2 animated" style=""><p class="landing-semantic-text-medium">👀 Хочешь узнать, где найти самые запретные женские архивы с интимным материалом? То есть то, на что обычные люди боятся даже заглядывать? 😏 <br /><br />💥 Наш телеграм бот рекомендует единственный выживший магазин. Где ты найдешь откровенные фото/видео/переписки, и даже доступ в избранное аккаунта..<br /><br />😈Ботов других магазинов уже забанили, но этот продолжает работать. Не пропусти возможность насладиться реальными видео и фото самых раскрепощенных девушек. Тебе точно понравится 😉<br /><br />🛍Ссылка на магазин: @arkhivyy_devushek_bot <br />Узнай  подробности FAQ : https://telegra.ph/MagazVkontakte<br /></p></div>
+                        </div>
+                    </div></div>
+            </div>
+
+        </div>
+    </section></div><a id="editor17"></a><div id="b17" class="block-wrapper block-02-three-cols-big-2"><section class="container-fluid px-0 landing-block">
+        <div class="row no-gutters">
+
+            <div class="landing-block-node-left landing-semantic-background-color order-2 order-lg-1 col-md-6 col-lg-4 g-bg" data-slider-autoplay="1" data-slider-animation="1" style="--bg: hsla(0, 0%, 0%, 1);">
+                <div class="js-carousel carouselLeft g-pb-90" data-infinite="true" data-autoplay="true" data-slides-show="1" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="js-slide landing-block-card-left">
+                        <img class="landing-block-node-img-left img-fluid w-100" src="https://cdn-ru.bitrix24.ru/b26287048/landing/57b/57b78cfb155016ce0365686d26050e05/IMG_8847_1x.jpg" alt="" srcset="https://cdn-ru.bitrix24.ru/b26287048/landing/aec/aec739380869f4cf1365a16b43d406e1/IMG_8847_2x.jpg 2x" data-fileid="173" data-fileid2x="171" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}" />
+
+                        <div class="g-pa-30">
+                            <h3 class="landing-block-node-carousel-element-title landing-semantic-title-small js-animation fadeIn text-uppercase g-font-weight-700 g-color-white g-mb-20"> </h3>
+							<div class="landing-block-node-carousel-element-text js-animation fadeIn g-color-gray-light-v2 "><p class="landing-semantic-text-medium">​​🎰 Добро пожаловать в мир азарта и удачи! 🎰<br /><br />🚀 Хотите выигрывать и наслаждаться игрой без риска потери своих денег? Тогда мой уникальный бот именно для вас! С ним вы сможете забыть о проигрышах и побеждать в любимых играх, таких как Aviator, Lucky Jet и другие.<br /><br />💰 Бот предсказывает правильные коэффициенты для каждой игры, обеспечивая вам уверенность в победе и возможность делать игру еще более увлекательной и выгодной.<br /><br />👉 Для использования бота вам нужен только личный номер вашего счета в букмекерской конторе. Никаких логинов и паролей - все безопасно и конфиденциально.<br /><br />📢 Не упустите свой шанс на большие выигрыши и подключайтесь к моему Telegram-каналу уже сегодня! Вы получите доступ к самым точным прогнозам и повысите свои шансы на успех в игре. Не ждите удачу, создайте ее самостоятельно - подписывайтесь на канал прямо сейчас! 🔥<br /></p></div>
+                        </div>
+                    </div></div>
+            </div>
+
+            <div class="landing-block-node-center landing-semantic-background-color order-1 order-lg-2 col-12 col-lg-4 d-flex justify-content-center flex-column g-pa-30 g-bg opacity-0" style="--bg: #ffffff;">
+                    <div class="landing-block-node-header text-uppercase g-brd-primary g-mb-auto g-border-color--hover u-heading-v2-0 text-justify" style="--border-color: ;--border-color--hover: #ffffff;">
+                        <h6 class="landing-block-node-center-subtitle landing-semantic-subtitle-small-primary js-animation fadeIn g-font-weight-700 g-letter-spacing-1 g-color-primary g-mb-20"> </h6>
+                        <h2 class="landing-block-node-center-title landing-semantic-title-medium  js-animation fadeIn h1 u-heading-v2__title g-line-height-1_3 g-font-weight-700 g-color-white g-mb-minus-10"> </h2>
+                    </div>
+
+                    <div class="landing-block-node-center-text landing-semantic-text-medium js-animation fadeIn g-color" style="--color: hsla(0, 0%, 0%, 1);"><p><br /></p></div>
+            </div>
+
+            <div class="landing-block-node-right landing-semantic-background-color order-3 col-md-6 col-lg-4 g-bg" data-slider-autoplay="1" data-slider-animation="1" style="--bg: hsla(0, 0%, 0%, 1);">
+                <div class="js-carousel carouselRight g-pb-90" data-infinite="true" data-slides-show="1" data-autoplay="true" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="js-slide landing-block-card-right">
+                        <img class="landing-block-node-img-right img-fluid w-100" src="https://cdn-ru.bitrix24.ru/b26287048/landing/56d/56dc256e52583f334e0c2b5f82055426/IMG_8856_1x.jpg" alt="" srcset="https://cdn-ru.bitrix24.ru/b26287048/landing/24a/24a911e4180a36b25c1c4292fc854990/IMG_8856_2x.jpg 2x" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}" data-fileid="175" data-fileid2x="177" />
+
+                        <div class="g-pa-30">
+                            <h3 class="landing-block-node-carousel-element-title landing-semantic-title-small js-animation fadeIn text-uppercase g-font-weight-700 g-color-white g-mb-20"> </h3>
+							<div class="landing-block-node-carousel-element-text landing-semantic-text-medium js-animation fadeIn g-color-gray-light-v2 "><p class="landing-semantic-text-medium">💦Секс-сервис от бога!💦‍<br /><br />- 🔥 Сайт знакомств, где ты найдешь себе партнершу на одну ночь, а может и на всю жизнь. <br />- 😆 Забудь про скучные свидания, тут тебе предложат только горячий секс. <br />- 😜 В любом городе тебя ждут тысячи озабоченных девчонок. <br />- 🎉 Хочешь попасть на закрытую тусовку? Это тоже возможно - оставь заявку.<br />- 👀 Боишься ботов или фейковых пользователей? Забудь об этом - наши анкеты проходят тщательную проверку, так что ты можешь быть уверен в каждой собеседнице. <br /><br />➡️➡️БЕСПЛАТНАЯ РЕГИСТРАЦИЯ ⬅️⬅️<br />             ⬇️ПОИСК ПО ВОЗРАСТУ ⬇️<br /></p></div>
+                        </div>
+                    </div></div>
+            </div>
+
+        </div>
+    </section></div><a id="editor19"></a><div id="b19" class="block-wrapper block-02-three-cols-big-2"><section class="container-fluid px-0 landing-block">
+        <div class="row no-gutters">
+
+            <div class="landing-block-node-left landing-semantic-background-color order-2 order-lg-1 col-md-6 col-lg-4 g-bg" data-slider-autoplay="1" data-slider-animation="1" style="--bg: hsla(0, 0%, 0%, 1);">
+                <div class="js-carousel carouselLeft g-pb-90" data-infinite="true" data-autoplay="true" data-slides-show="1" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="js-slide landing-block-card-left">
+                        <img class="landing-block-node-img-left img-fluid w-100" src="https://cdn-ru.bitrix24.ru/b26287048/landing/701/70136b52915f1d05d4a2549e484ed1f3/IMG_8857_1x.jpg" alt="" srcset="https://cdn-ru.bitrix24.ru/b26287048/landing/d81/d816174f21df24cef606fa65aa81e65a/IMG_8857_2x.jpg 2x" data-fileid="179" data-fileid2x="181" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}" />
+
+                        <div class="g-pa-30">
+                            <h3 class="landing-block-node-carousel-element-title landing-semantic-title-small js-animation fadeIn text-uppercase g-font-weight-700 g-color-white g-mb-20"> </h3>
+							<div class="landing-block-node-carousel-element-text js-animation fadeIn g-color-gray-light-v2 "><p class="landing-semantic-text-medium">🎥 видео от Полина, 25 лет 😘<br /><br />Как вам мое видео?) Я думаю вам понравилось. <br />В последнее время стала слишком напряженной, хочу снять стресс качественным трахом, пишите 💋<br /><br />✨ Ник на сайте: @polinasexy25<br /><br />Мои стримы здесь https://Webcam.Biz/Polina25 🥰✨<br /><br /> 🔞 Анкета девушки будет доступна после полной регистрации<br /></p></div>
+                        </div>
+                    </div></div>
+            </div>
+
+            <div class="landing-block-node-center landing-semantic-background-color order-1 order-lg-2 col-12 col-lg-4 d-flex justify-content-center flex-column g-pa-30 g-bg" style="--bg: #ffffff;">
+                    <div class="landing-block-node-header text-center text-uppercase u-heading-v2-0 g-mb-minus-20 g-border-color" style="--border-color: #ffffff;--border-color--hover: ;">
+                        <h6 class="landing-block-node-center-subtitle landing-semantic-subtitle-small-primary js-animation fadeIn g-font-weight-700 g-letter-spacing-1 g-color-primary g-mb-20"> </h6>
+                        <h2 class="landing-block-node-center-title landing-semantic-title-medium  js-animation fadeIn h1 u-heading-v2__title g-line-height-1_3 g-font-weight-700 g-color-white g-mb-minus-10"> </h2>
+                    </div>
+
+                    <div class="landing-block-node-center-text landing-semantic-text-medium js-animation fadeIn g-color-gray-light-v2"><p><br /></p></div>
+            </div>
+
+            <div class="landing-block-node-right landing-semantic-background-color order-3 col-md-6 col-lg-4 g-bg" data-slider-autoplay="1" data-slider-animation="1" style="--bg: hsla(0, 0%, 0%, 1);">
+                <div class="js-carousel carouselRight g-pb-90" data-infinite="true" data-slides-show="1" data-autoplay="true" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30"><div class="js-slide landing-block-card-right">
+                        <img class="landing-block-node-img-right img-fluid w-100" src="https://cdn-ru.bitrix24.ru/b26287048/landing/1e9/1e9ba8c40ba4e9702ac035f7e86e684e/IMG_8858_1x.jpg" alt="" srcset="https://cdn-ru.bitrix24.ru/b26287048/landing/3e1/3e19cc53f7080fc6bcc1535efb1b3812/IMG_8858_2x.jpg 2x" data-fileid="185" data-fileid2x="183" data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;https://go.gkrtmc.com/aff_c?offer_id=4856&amp;aff_id=53854&amp;aff_sub5=other&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:true}" />
+
+                        <div class="g-pa-30">
+                            <h3 class="landing-block-node-carousel-element-title landing-semantic-title-small js-animation fadeIn text-uppercase g-font-weight-700 g-color-white g-mb-20"> </h3>
+							<div class="landing-block-node-carousel-element-text landing-semantic-text-medium js-animation fadeIn g-color-gray-light-v2 "><p class="landing-semantic-text-medium">🔥Горячая новость для любителей сексуальных игр! 🔥<br /><br />❓Не веришь, что настоящие развратницы находятся в онлайн-играх? Ты ошибаешься! Эксклюзивное приложение доступно для iOS 📱 и Android 📱 - <a href="https://go.gkrtmc.com/aff_c?offer_id=4856&aff_id=53854&aff_sub5=other" >играй прямо в браузере</a> 🎮 и наслаждайся сексуальными приключениями!<br /><br />- 😍 Регистрация на сайте бесплатна, не теряй свой шанс. <br />- 👻 Никаких ботов и фейковых пользователей - только живые люди <br />- 🦋 Игра доступна на русском языке для удобства твоего погружения в новый мир. <br /><br />❗️Попробуй бесплатно  ▶️▶️ <a href="https://go.gkrtmc.com/aff_c?offer_id=4856&aff_id=53854&aff_sub5=other" target="_blank">http://18games.com</a><br /></p></div>
+                        </div>
+                    </div></div>
+            </div>
+
+        </div>
+    </section></div><style>
+	[data-b24-crm-hello-cont] {
+		display: none;
+	}
+</style>
+
+</main>
+<script data-skip-moving="true">
+					(function(w,d,u,b){ 'use strict';
+					var s=d.createElement('script');var r=(Date.now()/1000|0);s.async=1;s.src=u+'?'+r;
+					var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+				})(window,document,'https://cdn-ru.bitrix24.ru/b26287048/crm/site_button/loader_1_r1e4sk.js');
+				</script> <div class="bitrix-footer"><span class="bitrix-footer-text"><div class="bitrix-footer-seo">Заряжено <img src="//b24-m2ew2d.bitrix24.ru/bitrix/images/landing/copyright/logo_ru.svg?1" alt="Битрикс24"> &mdash; Бесплатные Сайты и CRM. <a href="https://www.bitrix24.ru/features/sites.php?utm_medium=referral&amp;utm_source=bitrix24.ru&amp;utm_campaign=ru_sites_websites">Создать сайт</a></div><div class="bitrix-footer-terms"><a class="bitrix-footer-link bitrix-footer-link-report" target="_blank" href="https://www.bitrix24.ru/abuse/?sender_page=PAGE&hostname=b24-m2ew2d.bitrix24.ru&siteId=5&from_url=https%253A%252F%252Fb24-m2ew2d.bitrix24.ru%252Fpub%252Fsite%252F5%252F%253Flanding_mode%253Dpreview%2526hash%253Dfe7e95d9a5eabeb33f217cd54341cbfa">Сообщить о нарушении</a><span class="bitrix-footer-hint" data-hint="Битрикс24 не несёт ответственности за содержимое сайта, но вы можете сообщить нам о нарушении"></span></div></span></div>
+
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1689068790220181"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'pull_server_enabled':'Y','pull_config_timestamp':'1645115399','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'CORE_CLIPBOARD_COPY_SUCCESS':'Скопировано','CORE_CLIPBOARD_COPY_FAILURE':'Не удалось скопировать'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'MAIN_SIDEPANEL_CLOSE':'Закрыть','MAIN_SIDEPANEL_PRINT':'Печать','MAIN_SIDEPANEL_NEW_WINDOW':'Открыть в новом окне','MAIN_SIDEPANEL_COPY_LINK':'Скопировать ссылку'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'AMPM_MODE':false});(window.BX||top.BX).message({'MONTH_1':'Январь','MONTH_2':'Февраль','MONTH_3':'Март','MONTH_4':'Апрель','MONTH_5':'Май','MONTH_6':'Июнь','MONTH_7':'Июль','MONTH_8':'Август','MONTH_9':'Сентябрь','MONTH_10':'Октябрь','MONTH_11':'Ноябрь','MONTH_12':'Декабрь','MONTH_1_S':'января','MONTH_2_S':'февраля','MONTH_3_S':'марта','MONTH_4_S':'апреля','MONTH_5_S':'мая','MONTH_6_S':'июня','MONTH_7_S':'июля','MONTH_8_S':'августа','MONTH_9_S':'сентября','MONTH_10_S':'октября','MONTH_11_S':'ноября','MONTH_12_S':'декабря','MON_1':'янв','MON_2':'фев','MON_3':'мар','MON_4':'апр','MON_5':'мая','MON_6':'июн','MON_7':'июл','MON_8':'авг','MON_9':'сен','MON_10':'окт','MON_11':'ноя','MON_12':'дек','DAY_OF_WEEK_0':'Воскресенье','DAY_OF_WEEK_1':'Понедельник','DAY_OF_WEEK_2':'Вторник','DAY_OF_WEEK_3':'Среда','DAY_OF_WEEK_4':'Четверг','DAY_OF_WEEK_5':'Пятница','DAY_OF_WEEK_6':'Суббота','DOW_0':'Вс','DOW_1':'Пн','DOW_2':'Вт','DOW_3':'Ср','DOW_4':'Чт','DOW_5':'Пт','DOW_6':'Сб','FD_SECOND_AGO_0':'#VALUE# секунд назад','FD_SECOND_AGO_1':'#VALUE# секунду назад','FD_SECOND_AGO_10_20':'#VALUE# секунд назад','FD_SECOND_AGO_MOD_1':'#VALUE# секунду назад','FD_SECOND_AGO_MOD_2_4':'#VALUE# секунды назад','FD_SECOND_AGO_MOD_OTHER':'#VALUE# секунд назад','FD_SECOND_DIFF_0':'#VALUE# секунд','FD_SECOND_DIFF_1':'#VALUE# секунда','FD_SECOND_DIFF_10_20':'#VALUE# секунд','FD_SECOND_DIFF_MOD_1':'#VALUE# секунда','FD_SECOND_DIFF_MOD_2_4':'#VALUE# секунды','FD_SECOND_DIFF_MOD_OTHER':'#VALUE# секунд','FD_SECOND_SHORT':'#VALUE#с','FD_MINUTE_AGO_0':'#VALUE# минут назад','FD_MINUTE_AGO_1':'#VALUE# минуту назад','FD_MINUTE_AGO_10_20':'#VALUE# минут назад','FD_MINUTE_AGO_MOD_1':'#VALUE# минуту назад','FD_MINUTE_AGO_MOD_2_4':'#VALUE# минуты назад','FD_MINUTE_AGO_MOD_OTHER':'#VALUE# минут назад','FD_MINUTE_DIFF_0':'#VALUE# минут','FD_MINUTE_DIFF_1':'#VALUE# минута','FD_MINUTE_DIFF_10_20':'#VALUE# минут','FD_MINUTE_DIFF_MOD_1':'#VALUE# минута','FD_MINUTE_DIFF_MOD_2_4':'#VALUE# минуты','FD_MINUTE_DIFF_MOD_OTHER':'#VALUE# минут','FD_MINUTE_0':'#VALUE# минут','FD_MINUTE_1':'#VALUE# минуту','FD_MINUTE_10_20':'#VALUE# минут','FD_MINUTE_MOD_1':'#VALUE# минуту','FD_MINUTE_MOD_2_4':'#VALUE# минуты','FD_MINUTE_MOD_OTHER':'#VALUE# минут','FD_MINUTE_SHORT':'#VALUE#мин','FD_HOUR_AGO_0':'#VALUE# часов назад','FD_HOUR_AGO_1':'#VALUE# час назад','FD_HOUR_AGO_10_20':'#VALUE# часов назад','FD_HOUR_AGO_MOD_1':'#VALUE# час назад','FD_HOUR_AGO_MOD_2_4':'#VALUE# часа назад','FD_HOUR_AGO_MOD_OTHER':'#VALUE# часов назад','FD_HOUR_DIFF_0':'#VALUE# часов','FD_HOUR_DIFF_1':'#VALUE# час','FD_HOUR_DIFF_10_20':'#VALUE# часов','FD_HOUR_DIFF_MOD_1':'#VALUE# час','FD_HOUR_DIFF_MOD_2_4':'#VALUE# часа','FD_HOUR_DIFF_MOD_OTHER':'#VALUE# часов','FD_HOUR_SHORT':'#VALUE#ч','FD_YESTERDAY':'вчера','FD_TODAY':'сегодня','FD_TOMORROW':'завтра','FD_DAY_AGO_0':'#VALUE# дней назад','FD_DAY_AGO_1':'#VALUE# день назад','FD_DAY_AGO_10_20':'#VALUE# дней назад','FD_DAY_AGO_MOD_1':'#VALUE# день назад','FD_DAY_AGO_MOD_2_4':'#VALUE# дня назад','FD_DAY_AGO_MOD_OTHER':'#VALUE# дней назад','FD_DAY_DIFF_0':'#VALUE# дней','FD_DAY_DIFF_1':'#VALUE# день','FD_DAY_DIFF_10_20':'#VALUE# дней','FD_DAY_DIFF_MOD_1':'#VALUE# день','FD_DAY_DIFF_MOD_2_4':'#VALUE# дня','FD_DAY_DIFF_MOD_OTHER':'#VALUE# дней','FD_DAY_AT_TIME':'#DAY# в #TIME#','FD_DAY_SHORT':'#VALUE#д','FD_MONTH_AGO_0':'#VALUE# месяцев назад','FD_MONTH_AGO_1':'#VALUE# месяц назад','FD_MONTH_AGO_10_20':'#VALUE# месяцев назад','FD_MONTH_AGO_MOD_1':'#VALUE# месяц назад','FD_MONTH_AGO_MOD_2_4':'#VALUE# месяца назад','FD_MONTH_AGO_MOD_OTHER':'#VALUE# месяцев назад','FD_MONTH_DIFF_0':'#VALUE# месяцев','FD_MONTH_DIFF_1':'#VALUE# месяц','FD_MONTH_DIFF_10_20':'#VALUE# месяцев','FD_MONTH_DIFF_MOD_1':'#VALUE# месяц','FD_MONTH_DIFF_MOD_2_4':'#VALUE# месяца','FD_MONTH_DIFF_MOD_OTHER':'#VALUE# месяцев','FD_MONTH_SHORT':'#VALUE#мес','FD_YEARS_AGO_0':'#VALUE# лет назад','FD_YEARS_AGO_1':'#VALUE# год назад','FD_YEARS_AGO_10_20':'#VALUE# лет назад','FD_YEARS_AGO_MOD_1':'#VALUE# год назад','FD_YEARS_AGO_MOD_2_4':'#VALUE# года назад','FD_YEARS_AGO_MOD_OTHER':'#VALUE# лет назад','FD_YEARS_DIFF_0':'#VALUE# лет','FD_YEARS_DIFF_1':'#VALUE# год','FD_YEARS_DIFF_10_20':'#VALUE# лет','FD_YEARS_DIFF_MOD_1':'#VALUE# год','FD_YEARS_DIFF_MOD_2_4':'#VALUE# года','FD_YEARS_DIFF_MOD_OTHER':'#VALUE# лет','FD_YEARS_SHORT_0':'#VALUE#л','FD_YEARS_SHORT_1':'#VALUE#г','FD_YEARS_SHORT_10_20':'#VALUE#л','FD_YEARS_SHORT_MOD_1':'#VALUE#г','FD_YEARS_SHORT_MOD_2_4':'#VALUE#г','FD_YEARS_SHORT_MOD_OTHER':'#VALUE#л','CAL_BUTTON':'Выбрать','CAL_TIME_SET':'Установить время','CAL_TIME':'Время','FD_LAST_SEEN_TOMORROW':'завтра в #TIME#','FD_LAST_SEEN_NOW':'только что','FD_LAST_SEEN_TODAY':'сегодня в #TIME#','FD_LAST_SEEN_YESTERDAY':'вчера в #TIME#','FD_LAST_SEEN_MORE_YEAR':'более года назад'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'WEEK_START':'1'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JC_CORE_TREE_SELECT_CONTROL':'Выберите условие','JC_CORE_TREE_ADD_CONTROL':'Добавить условие','JC_CORE_TREE_DELETE_CONTROL':'Удалить условие','JC_CORE_TREE_CONTROL_DATETIME_ICON':'Нажмите для выбора даты','JC_CORE_TREE_CONDITION_ERROR':'Ошибка в условии','JC_CORE_TREE_CONDITION_FATAL_ERROR':'Неустранимая ошибка в условии. Рекомендуется его удалить'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1689634736','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'22d5de02df750a2502a2fc3766f5667f'});</script><script type="text/javascript" src="/bitrix/js/ui/dexie/dist/dexie3.bundle.min.js?166202082188295"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_ls.min.js?14328944187365"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_fx.min.js?14909536449768"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_frame_cache.min.js?168906879011210"></script>
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/protobuf.min.js?159231549176433"></script>
+<script type="text/javascript" src="/bitrix/js/pull/protobuf/model.min.js?159231549114190"></script>
+<script type="text/javascript" src="/bitrix/js/rest/client/rest.client.min.js?16015491189240"></script>
+<script type="text/javascript" src="/bitrix/js/pull/client/pull.client.min.js?167843116848309"></script>
+<script type="text/javascript" src="/bitrix/js/landing/metrika/dist/metrika.bundle.min.js?16885480273031"></script>
+<script type="text/javascript" src="/bitrix/js/main/pageobject/pageobject.min.js?1584117434570"></script>
+<script type="text/javascript" src="/bitrix/js/main/popup/dist/main.popup.bundle.min.js?168130228565670"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_clipboard.min.js?16572140002246"></script>
+<script type="text/javascript" src="/bitrix/js/main/sidepanel/manager.min.js?166798600419517"></script>
+<script type="text/javascript" src="/bitrix/js/main/sidepanel/slider.min.js?166798600431250"></script>
+<script type="text/javascript" src="/bitrix/js/ui/hint/ui.hint.min.js?16777677564666"></script>
+<script type="text/javascript" src="/bitrix/js/main/date/main.date.min.js?168130228517992"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_date.min.js?161286731026661"></script>
+<script type="text/javascript" src="/bitrix/js/main/core/core_window.min.js?163974535776326"></script>
+<script type="text/javascript" src="/bitrix/js/catalog/core_tree.min.js?165634246245324"></script>
+<script type="text/javascript" src="/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.min.js?15362428577124"></script>
+<script type="text/javascript">if (Intl && Intl.DateTimeFormat) document.cookie="BITRIX_SM_TZ="+Intl.DateTimeFormat().resolvedOptions().timeZone+"; path=/; expires=Mon, 01 Jul 2024 00:00:00 +0300";</script>
+<script>
+	(function(w,d,u){
+		var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/86400000|0);
+		var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+	})(window,document,'https://cdn-ru.bitrix24.ru/b26287048/landing/assets/assets_webpack_1e5ba1ccef_1689563559.js');
+</script>
+
+
+
+<script type="text/javascript" src="/bitrix/templates/landing24/assets/js/helpers/lazyload.min.js?16770006392181"></script>
+<script type="text/javascript" src="/bitrix/components/bitrix/landing.pub/templates/.default/script.min.js?16843044578156"></script>
+<script>
+	BX.namespace("BX.Landing");
+	BX.Landing.getMode = () => "preview";
+</script>
+<script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "bc2cad9153cb418bb2dfd5602c3c3754"]); _ba.push(["host", "b24-m2ew2d.bitrix24.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+<script>
+	(function()
+	{
+		new BX.Landing.Metrika();
+	})();
+</script>
+
+<script>
+	BX.ready(function() {
+		void new BX.Landing.Pub.PageTransition();
+		BX.UI.Hint.init(BX('bitrix-footer-terms'));
+	});
+</script>
+
+<script>
+
+</script>
+</body>
+</html>
